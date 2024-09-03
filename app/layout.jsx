@@ -15,6 +15,7 @@ import Footer from "@components/Footer/Footer";
 
 export const metadata = {
   title: "ISTAIX",
+  // this is wrong, put meanigul description about business
   description: "Simple Construction website",
   // need to fill in metadata for SEO
   keywords: [],
