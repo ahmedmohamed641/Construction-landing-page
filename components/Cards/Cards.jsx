@@ -11,6 +11,7 @@ const Cards = () => {
         {/* First Card */}
         <section className="grid grid-cols-1 rounded-xl">
           <figure className="flex justify-start">
+            {/* do not use img tag, use Next Image component because it is more efficient {@link https://nextjs.org/docs/api-reference/next/image} */}
             <img
               src="assets/images/Image (2).png"
               className="md:w-96 lg:w-full h-auto rounded-t-xl"

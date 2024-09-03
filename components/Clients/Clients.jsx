@@ -19,6 +19,7 @@ const Clients = () => {
           <section className="grid grid-cols-1 sm:grid-cols-2 gap-6 sm:gap-10 lg:gap-y-10">
             <section className="flex p-2 rounded-md">
               <figure>
+                {/* same thing use next image */}
                 <img
                   src="/assets/images/icon.png"
                   alt="Satisfied Clients"
