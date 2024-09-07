@@ -1,21 +1,23 @@
 import { Button, Typography, Container } from "@mui/material";
 import ChevronRightIcon from "@mui/icons-material/ChevronRight";
+import Image from "next/image";
 
 const Cards = () => {
   return (
     <section className="p-6 sm:p-12 lg:p-24 w-full">
       <Container
         maxWidth="xl"
-        className="text-left sm:flex   gap-12 lg:gap-24 lg:justify-between"
+        className="text-left sm:flex gap-12 lg:gap-24 lg:justify-between"
       >
         {/* First Card */}
         <section className="grid grid-cols-1 rounded-xl">
           <figure className="flex justify-start">
-            {/* do not use img tag, use Next Image component because it is more efficient {@link https://nextjs.org/docs/api-reference/next/image} */}
-            <img
-              src="assets/images/Image (2).png"
+            <Image
+              src="/assets/images/Image (2).png"
               className="md:w-96 lg:w-full h-auto rounded-t-xl"
               alt="Canadian Construction Branches"
+              width={960}
+              height={540}
             />
           </figure>
           <div className="flex flex-col gap-4 pt-6">
@@ -40,10 +42,12 @@ const Cards = () => {
         {/* Second Card */}
         <section className="grid grid-cols-1 rounded-xl">
           <figure className="flex justify-start">
-            <img
-              src="assets/images/Image (2).png"
+            <Image
+              src="/assets/images/Image (2).png"
               className="md:w-96 lg:w-full h-auto rounded-t-xl"
               alt="Australian Construction Branches"
+              width={960}
+              height={540}
             />
           </figure>
           <div className="flex flex-col gap-4 pt-6">
@@ -69,10 +73,12 @@ const Cards = () => {
         {/* Third Card */}
         <section className="grid grid-cols-1 rounded-xl">
           <figure className="flex justify-start">
-            <img
-              src="assets/images/Image (2).png"
-              className=" md:w-96 lg:w-full h-auto rounded-t-xl"
+            <Image
+              src="/assets/images/Image (2).png"
+              className="md:w-96 lg:w-full h-auto rounded-t-xl"
               alt="Brazilian Construction Branches"
+              width={960}
+              height={540}
             />
           </figure>
           <div className="flex flex-col gap-4 pt-6">

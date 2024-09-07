@@ -7,7 +7,7 @@ const Contact = () => {
         maxWidth="xl"
         className=" sm:pt-28 lg:pt-36 pb-16 sm:pb-20 lg:pb-24"
       >
-        <section className="xs:pt-4   md:pt-6  lg:pt-14  xl:pt-20  xl:h-[400px] xs:h-[125px] md:bg-cover md:h-[200px] lg:h-[300px] bg-contact-background flex flex-col items-center text-center">
+        <section className="xs:pt-4 rounded-lg  md:pt-6  lg:pt-14  xl:pt-20  xl:h-[400px] xs:h-[125px] md:bg-cover md:h-[200px] lg:h-[300px] bg-contact-background flex flex-col items-center text-center">
           <h2 className=" text-navy-text  xs:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-semibold leading-snug">
             Get a Free Quote Now!
           </h2>

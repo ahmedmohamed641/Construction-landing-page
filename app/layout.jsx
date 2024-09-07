@@ -1,31 +1,41 @@
 import "@styles/globals.css";
 import Navbar from "@/components/Navbar/Navbar";
-
-// FIX:
-// todo: remove unused components for performance
-// todo: add metadata for SEO
-// todo: replace regular img with next/image
-// todo: `get started` button nd see our `work button` should be interactive
-// todo: you should create pages for products, jobs, pricing, and about to make the site complete if not remove the links
-// todo: also missing favicon for SEO
-
-// remove unused components for performance
-import { keyframes, StyledEngineProvider } from "@mui/material";
+import { StyledEngineProvider } from "@mui/material";
 import Footer from "@components/Footer/Footer";
+import Head from "next/head";
 
 export const metadata = {
-  title: "ISTAIX",
-  // this is wrong, put meanigul description about business
-  description: "Simple Construction website",
-  // need to fill in metadata for SEO
-  keywords: [],
-  author: "",
-  creator: "",
+  title: "ISTAIX - Innovative Construction Solutions",
+  description:
+    "ISTAIX provides modern and sustainable construction solutions for residential, commercial, and industrial projects. We offer tailored services to meet your construction needs from design to completion.",
+  keywords: [
+    "ISTAIX",
+    "construction company",
+    "construction solutions",
+    "building services",
+    "sustainable construction",
+    "commercial construction",
+    "residential construction",
+    "industrial construction",
+    "innovative construction",
+    "building design",
+    "construction management",
+  ],
+  author: "ISTAIX Team",
+  creator: "ISTAIX Development Team",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <Head>
+        <title>{metadata.title}</title>
+        <meta name="description" content={metadata.description} />
+        <meta name="keywords" content={metadata.keywords.join(", ")} />
+        <meta name="author" content={metadata.author} />
+        <meta name="creator" content={metadata.creator} />
+        <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+      </Head>
       <StyledEngineProvider injectFirst>
         <body className="text-white">
           <Navbar />

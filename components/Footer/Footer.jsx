@@ -9,7 +9,6 @@ const Footer = () => {
     <section className="w-full footer-background p-6 sm:p-8 lg:p-10">
       <Container maxWidth="xl">
         <section className="flex flex-col lg:flex-row justify-between gap-8">
-          {/* Left section with links */}
           <section className="grid gap-4 sm:grid-rows-4 lg:text-left">
             <Link href="/" className="flex items-center gap-2 font-bold">
               <Image
@@ -43,7 +42,6 @@ const Footer = () => {
             <p>&copy; 2020 ISTAIX. All rights reserved.</p>
           </section>
 
-          {/* Right section with app download */}
           <section className="flex flex-col gap-4 text-center lg:text-right">
             <p className="text-xl font-thin">Get the App</p>
             <figure>
