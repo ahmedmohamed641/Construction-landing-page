@@ -1,8 +1,7 @@
 "use client";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
-
 import { Container } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
 import IconButton from "@mui/material/IconButton";
@@ -10,12 +9,25 @@ import IconButton from "@mui/material/IconButton";
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
+  useEffect(() => {
+    const handleOutsideClick = (event) => {
+      if (isMenuOpen && !event.target.closest("nav")) {
+        setIsMenuOpen(false);
+      }
+    };
+    document.addEventListener("mousedown", handleOutsideClick);
+    return () => {
+      document.removeEventListener("mousedown", handleOutsideClick);
+    };
+  }, [isMenuOpen]);
+
   return (
     <nav className="bg-navy p-4 xs:pr-8 xs:pl-8 md:pr-14 md:pl-14 lg:pr-24 lg:pl-24 shadow-lg transition-shadow duration-300 hover:shadow-2xl">
       <Container maxWidth="xl" className="flex justify-between items-center">
         <Link
           href="/"
           className="flex gap-2 md:text-sm lg:text-base md:font-semibold lg:font-bold items-center hover:text-light-navy transition-colors duration-300"
+          aria-label="Home"
         >
           <Image
             src="/assets/images/logo.png"
@@ -48,6 +60,7 @@ const Navbar = () => {
             <Link
               href="/"
               className="xs:text-sm lg:text-base block py-2 px-4 hover:bg-light-navy transition-colors duration-300 rounded"
+              aria-label="Navigate to Home"
               onClick={() => setIsMenuOpen(false)}
             >
               Home
@@ -58,6 +71,7 @@ const Navbar = () => {
             <Link
               href="/projects"
               className="xs:text-sm lg:text-base block py-2 px-4 hover:bg-light-navy transition-colors duration-300 rounded"
+              aria-label="Navigate to Projects"
               onClick={() => setIsMenuOpen(false)}
             >
               Projects
@@ -68,6 +82,7 @@ const Navbar = () => {
             <Link
               href="/about"
               className="xs:text-sm lg:text-base block py-2 px-4 hover:bg-light-navy transition-colors duration-300 rounded"
+              aria-label="Navigate to About"
               onClick={() => setIsMenuOpen(false)}
             >
               About

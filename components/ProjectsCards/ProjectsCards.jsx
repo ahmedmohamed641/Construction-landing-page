@@ -1,5 +1,4 @@
 import { Typography, Container } from "@mui/material";
-
 import Image from "next/image";
 
 const ProjectsCards = () => {
@@ -35,7 +34,7 @@ const ProjectsCards = () => {
             </Typography>
           </div>
         </section>
-        {/* Second card */}
+        {/* Second Card */}
         <section className="flex-col rounded-xl bg-white shadow-lg overflow-hidden transition-transform duration-300 transform hover:scale-105">
           <figure className="relative">
             <Image
@@ -55,7 +54,7 @@ const ProjectsCards = () => {
             </Typography>
           </div>
         </section>
-        {/* Third card */}
+        {/* Third Card */}
         <section className="flex-col rounded-xl bg-white shadow-lg overflow-hidden transition-transform duration-300 transform hover:scale-105">
           <figure className="relative">
             <Image
@@ -76,7 +75,7 @@ const ProjectsCards = () => {
           </div>
         </section>
 
-        {/* Fourth card */}
+        {/* Fourth Card */}
         <section className="flex-col rounded-xl bg-white shadow-lg overflow-hidden transition-transform duration-300 transform hover:scale-105">
           <figure className="relative">
             <Image
@@ -96,7 +95,7 @@ const ProjectsCards = () => {
             </Typography>
           </div>
         </section>
-        {/* fifth card */}
+        {/* Fifth Card */}
         <section className="flex-col rounded-xl bg-white shadow-lg overflow-hidden transition-transform duration-300 transform hover:scale-105">
           <figure className="relative">
             <Image
@@ -117,7 +116,7 @@ const ProjectsCards = () => {
           </div>
         </section>
 
-        {/* sixth card */}
+        {/* Sixth Card */}
         <section className="flex-col rounded-xl bg-white shadow-lg overflow-hidden transition-transform duration-300 transform hover:scale-105">
           <figure className="relative">
             <Image
@@ -137,7 +136,7 @@ const ProjectsCards = () => {
             </Typography>
           </div>
         </section>
-        {/* seventh card */}
+        {/* Seventh Card */}
         <section className="flex-col rounded-xl bg-white shadow-lg overflow-hidden transition-transform duration-300 transform hover:scale-105">
           <figure className="relative">
             <Image
@@ -157,7 +156,7 @@ const ProjectsCards = () => {
             </Typography>
           </div>
         </section>
-        {/* eighth card */}
+        {/* Eighth Card */}
         <section className="flex-col rounded-xl bg-white shadow-lg overflow-hidden transition-transform duration-300 transform hover:scale-105">
           <figure className="relative">
             <Image

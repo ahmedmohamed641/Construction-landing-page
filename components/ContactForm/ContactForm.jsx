@@ -1,7 +1,4 @@
 import { Button, Typography, Container, TextField } from "@mui/material";
-import ArrowDownwardIcon from "@mui/icons-material/ArrowDownward";
-import Image from "next/image";
-import Link from "next/link";
 
 const ContactForm = () => {
   return (

@@ -43,7 +43,7 @@ const Footer = () => {
           </section>
 
           <section className="flex flex-col gap-4 text-center lg:text-right">
-            <p className="text-xl font-thin">Get the App</p>
+            <p className="text-xl text-left font-thin">Get the App</p>
             <figure>
               <img src="/assets/images/playstore.png" alt="Play Store" />
             </figure>

@@ -11,7 +11,7 @@ const Review = () => {
           </h2>
           <p className="text-navy-text text-lg">
             Over 17 years of experience in creating spaces that positively
-            impact people’s lives
+            impact people&rsquo;s lives
           </p>
           <figure className="flex justify-center lg:mt-6">
             <Image
