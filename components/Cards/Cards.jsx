@@ -25,7 +25,7 @@ const Cards = () => {
               Canadian Construction <br className="hidden sm:block" /> Branches.
             </h3>
             <Typography className="text-grey text-sm sm:text-base">
-              We'll Supply You With Materials To{" "}
+              We&apos;ll Supply You With Materials To{" "}
               <br className="hidden sm:block" />
               Create Your Dream Property From <br className="hidden sm:block" />
               Foundation To Finish. Call To Get Started!
@@ -56,7 +56,7 @@ const Cards = () => {
               Branches.
             </h3>
             <Typography className="text-grey text-sm sm:text-base">
-              We'll Supply You With Materials To{" "}
+              We&apos;ll Supply You With Materials To{" "}
               <br className="hidden sm:block" />
               Create Your Dream Property From <br className="hidden sm:block" />
               Foundation To Finish. Call To Get Started!
@@ -87,7 +87,7 @@ const Cards = () => {
               Branches.
             </h3>
             <Typography className="text-grey text-sm sm:text-base">
-              We'll Supply You With Materials To{" "}
+              We&apos;ll Supply You With Materials To{" "}
               <br className="hidden sm:block" />
               Create Your Dream Property From <br className="hidden sm:block" />
               Foundation To Finish. Call To Get Started!
