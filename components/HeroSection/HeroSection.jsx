@@ -47,8 +47,7 @@ const HeroSection = () => {
           </ul>
         </section>
 
-        {/* Replace img with Next.js Image */}
-        <section className="lg:w-56 xs:absolute xs:top-80 xs:right-3 md:top-36 md:right-20 lg:top-36 lg:right-20 xl:top-36 xl:right-96 bg-white p-2 flex rounded-md shadow-lg">
+        <section className=" xs:hidden md:flex lg:w-56 xs:absolute xs:top-80 xs:right-3 md:top-36 md:right-20 lg:top-36 lg:right-20 xl:top-36 xl:right-96 bg-white p-2 flex rounded-md shadow-lg">
           <figure>
             <Image
               src="/assets/images/photo0.png"
@@ -72,8 +71,7 @@ const HeroSection = () => {
           </span>
         </section>
 
-        {/* Another Image replacement */}
-        <section className="lg:w-56 xs:absolute md:absolute xs:bottom-72 xs:left-2/4 md:bottom-72 md:left-2/4 lg:bottom-80 lg:left-[600px] lg:right-10 xl:bottom-72 xl:left-2/4 bg-white p-2 flex rounded-md shadow-lg">
+        <section className=" xs:hidden md:flex  lg:w-56 xs:absolute md:absolute xs:bottom-72 xs:left-2/4 md:bottom-72 md:left-2/4 lg:bottom-80 lg:left-[600px] lg:right-10 xl:bottom-72 xl:left-2/4 bg-white p-2 flex rounded-md shadow-lg">
           <figure>
             <Image
               src="/assets/images/photo(00).png"

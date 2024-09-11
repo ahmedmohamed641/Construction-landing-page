@@ -8,14 +8,14 @@ const Cards = () => {
     <section id="blogs" className="p-6 sm:p-12 lg:p-24 w-full">
       <Container
         maxWidth="xl"
-        className="text-left sm:flex gap-12 lg:gap-24 lg:justify-between"
+        className="text-left sm:flex sm:gap-12 lg:gap-24 lg:justify-between"
       >
         {/* First Card */}
         <Link
           href="https://www.thespruce.com/best-construction-materials-for-your-home-4177916"
           passHref
         >
-          <article className="grid grid-cols-1 rounded-xl cursor-pointer">
+          <article className="grid grid-cols-1 rounded-xl xs:mt-10 md:mt-0  cursor-pointer">
             <figure className="flex justify-start">
               <Image
                 src="/assets/images/home11.png"
@@ -52,7 +52,7 @@ const Cards = () => {
           href="https://www.homeadvisor.com/cost/architects-and-engineers/build-a-house/"
           passHref
         >
-          <article className="grid grid-cols-1 rounded-xl cursor-pointer">
+          <article className="grid grid-cols-1 rounded-xl cursor-pointer xs:mt-10 md:mt-0">
             <figure className="flex justify-start">
               <Image
                 src="/assets/images/home13.png"
@@ -89,7 +89,7 @@ const Cards = () => {
           href="https://www.builderonline.com/building/the-latest-trends-in-home-construction_o"
           passHref
         >
-          <article className="grid grid-cols-1 rounded-xl cursor-pointer">
+          <article className="grid grid-cols-1 rounded-xl xs:mt-10 md:mt-0  cursor-pointer">
             <figure className="flex justify-start">
               <Image
                 src="/assets/images/hpme5.png"
