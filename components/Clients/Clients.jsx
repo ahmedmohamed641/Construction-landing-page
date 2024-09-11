@@ -104,21 +104,21 @@ const Clients = () => {
           <h3 className="text-navy text-2xl sm:text-3xl lg:text-4xl capitalize font-medium">
             Our Trusted Clients
           </h3>
-          <ul className="flex justify-between items-center pt-10 sm:pt-14 sm:gap-4 lg:gap-10">
+          <ul className=" xs:grid grid-cols-2 md:flex justify-between items-center pt-10  xs:gap-4 lg:gap-10">
             <li className="shadow-md p-2 sm:p-4 flex-grow sm:flex-grow-0 transition-transform duration-300 hover:scale-105">
               <Image
                 src="/assets/images/client1.png"
                 alt="Client 1"
-                className="w-full h-auto"
-                width={300}
-                height={300}
+                className=" xs:w-28 md:w-36 lg:w-44 h-auto"
+                width={100}
+                height={100}
               />
             </li>
             <li className="shadow-md p-2 sm:p-4 flex-grow sm:flex-grow-0 transition-transform duration-300 hover:scale-105">
               <Image
                 src="/assets/images/client2.png"
                 alt="Client 2"
-                className="w-full h-auto"
+                className="xs:w-28 md:w-36 lg:w-44 h-auto"
                 width={300}
                 height={300}
               />
@@ -127,7 +127,7 @@ const Clients = () => {
               <Image
                 src="/assets/images/client3.png"
                 alt="Client 3"
-                className="w-full h-auto"
+                className="xs:w-28 md:w-36 lg:w-44 h-auto"
                 width={300}
                 height={300}
               />
@@ -136,7 +136,7 @@ const Clients = () => {
               <Image
                 src="/assets/images/client4.png"
                 alt="Client 4"
-                className="w-full h-auto"
+                className="xs:w-28 md:w-36 lg:w-44 h-auto"
                 width={300}
                 height={300}
               />
