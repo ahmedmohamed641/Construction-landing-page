@@ -30,4 +30,12 @@
     background-position: center;
     height: fit-content;
   }
+
+  .about-background {
+    background-image: url(/assets/images/backg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: fit-content;
+  }
 }

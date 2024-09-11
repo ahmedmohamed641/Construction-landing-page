@@ -46,50 +46,50 @@ const Review = () => {
             <figure className="xs:flex xs:justify-end">
               <Image
                 src="/assets/images/photo.png"
-                className="  h-auto xs:ml-28 sm:ml-3"
+                className="  h-auto  "
                 alt="Jane Cooper"
                 width={50}
                 height={50}
               />
               <span className="md:flex flex-col text-left ml-3">
                 <p className="text-navy xs:text-xs md:text-base">Jane Cooper</p>
-                <p className="text-navy xs:text-sm md:text-lg lg:text-xl font-medium">
+                <p className="text-navy xs:text-xs md:text-lg lg:text-xl font-medium">
                   CEO, ABC Corporation
                 </p>
               </span>
             </figure>
-            <span className="flex justify-center">
+            <figure className="flex justify-center">
               <Image
                 src="/assets/images/Photo (1).png"
                 alt="Client Photo 1"
                 width={50}
                 height={50}
               />
-            </span>
-            <span className="flex justify-center">
+            </figure>
+            <figure className="flex justify-center">
               <Image
                 src="/assets/images/Photo (2).png"
                 alt="Client Photo 2"
                 width={50}
                 height={50}
               />
-            </span>
-            <span className="flex justify-center">
+            </figure>
+            <figure className="flex justify-center">
               <Image
                 src="/assets/images/Photo (3).png"
                 alt="Client Photo 3"
                 width={50}
                 height={50}
               />
-            </span>
-            <span className="flex justify-center">
+            </figure>
+            <figure className="flex justify-center">
               <Image
                 src="/assets/images/Photo (4).png"
                 alt="Client Photo 4"
                 width={50}
                 height={50}
               />
-            </span>
+            </figure>
           </ul>
         </section>
       </Container>

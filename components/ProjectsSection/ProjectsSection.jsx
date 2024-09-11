@@ -2,7 +2,7 @@ import { Container } from "@mui/material";
 
 const ProjectsSection = () => {
   return (
-    <section className="bg-gradient-to-bl from-gray-100 text-center to-gray-300 xs:pt-16 xs:pr-8 xs:pl-8 md:pr-14 md:pl-14 lg:pr-24 sm:pb-24 md:pb-24 xs:pb-24 lg:pl-24 lg:pt-24 w-full">
+    <section className="about-background  text-center to-gray-300 xs:pt-16 xs:pr-8 xs:pl-8 md:pr-14 md:pl-14 lg:pr-24 sm:pb-24 md:pb-24 xs:pb-24 lg:pl-24 lg:pt-24 w-full">
       <Container
         maxWidth="xl"
         className="flex flex-col items-center text-center justify-center"

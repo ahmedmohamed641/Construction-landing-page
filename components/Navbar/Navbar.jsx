@@ -5,6 +5,7 @@ import Image from "next/image";
 import { Container } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
 import IconButton from "@mui/material/IconButton";
+import CloseIcon from "@mui/icons-material/Close";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -39,6 +40,7 @@ const Navbar = () => {
           ISTAIX
         </Link>
 
+        {/* Hamburger Icon */}
         <div className="xs:flex md:hidden justify-end">
           <IconButton
             edge="end"
@@ -47,34 +49,63 @@ const Navbar = () => {
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             className="hover:bg-light-navy transition-colors duration-300 p-1 rounded-full"
           >
-            <MenuIcon />
+            {isMenuOpen ? (
+              <CloseIcon fontSize="large" />
+            ) : (
+              <MenuIcon fontSize="large" />
+            )}
           </IconButton>
         </div>
 
-        <ul
-          className={`flex flex-col xs:pt-56 xs:gap-4 md:flex-row md:gap-4 lg:gap-10 text-white absolute md:static right-0 w-full xs:w-auto bg-navy md:bg-transparent p-5 md:p-0 transition-transform transform ${
-            isMenuOpen ? "translate-y-0" : "-translate-y-full md:translate-y-0"
-          } md:flex`}
+        {/* Slide-in Menu */}
+        <div
+          className={`fixed top-0 right-0 h-full w-64 bg-navy transform transition-transform duration-300 ${
+            isMenuOpen ? "translate-x-0" : "translate-x-full"
+          } md:hidden z-50`}
         >
+          <ul className="flex flex-col gap-6 p-6 text-white">
+            <li className="relative group">
+              <Link
+                href="/"
+                className="xs:text-sm lg:text-base block py-2 px-4 hover:bg-light-navy transition-colors duration-300 rounded"
+                aria-label="Navigate to Home"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                Home
+              </Link>
+            </li>
+            <li className="relative group">
+              <Link
+                href="/about"
+                className="xs:text-sm lg:text-base block py-2 px-4 hover:bg-light-navy transition-colors duration-300 rounded"
+                aria-label="Navigate to About"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                About
+              </Link>
+            </li>
+            <li className="relative group">
+              <Link
+                href="/projects"
+                className="xs:text-sm lg:text-base block py-2 px-4 hover:bg-light-navy transition-colors duration-300 rounded"
+                aria-label="Navigate to Projects"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                Projects
+              </Link>
+            </li>
+          </ul>
+        </div>
+
+        {/* Desktop Menu */}
+        <ul className="hidden md:flex md:flex-row md:gap-4 lg:gap-10 text-white">
           <li className="relative group">
             <Link
               href="/"
               className="xs:text-sm lg:text-base block py-2 px-4 hover:bg-light-navy transition-colors duration-300 rounded"
               aria-label="Navigate to Home"
-              onClick={() => setIsMenuOpen(false)}
             >
               Home
-              <span className="absolute left-0 bottom-0 w-full h-1 bg-light-navy transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></span>
-            </Link>
-          </li>
-          <li className="relative group">
-            <Link
-              href="/projects"
-              className="xs:text-sm lg:text-base block py-2 px-4 hover:bg-light-navy transition-colors duration-300 rounded"
-              aria-label="Navigate to Projects"
-              onClick={() => setIsMenuOpen(false)}
-            >
-              Projects
               <span className="absolute left-0 bottom-0 w-full h-1 bg-light-navy transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></span>
             </Link>
           </li>
@@ -83,9 +114,18 @@ const Navbar = () => {
               href="/about"
               className="xs:text-sm lg:text-base block py-2 px-4 hover:bg-light-navy transition-colors duration-300 rounded"
               aria-label="Navigate to About"
-              onClick={() => setIsMenuOpen(false)}
             >
               About
+              <span className="absolute left-0 bottom-0 w-full h-1 bg-light-navy transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></span>
+            </Link>
+          </li>
+          <li className="relative group">
+            <Link
+              href="/projects"
+              className="xs:text-sm lg:text-base block py-2 px-4 hover:bg-light-navy transition-colors duration-300 rounded"
+              aria-label="Navigate to Projects"
+            >
+              Projects
               <span className="absolute left-0 bottom-0 w-full h-1 bg-light-navy transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></span>
             </Link>
           </li>

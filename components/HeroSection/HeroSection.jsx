@@ -24,7 +24,7 @@ const HeroSection = () => {
           Experience.
         </p>
 
-        <section className="flex xs:gap-4 md:gap-8 lg:gap-10 xs:mt-10 md:mt-16 lg:mt-20">
+        <section className="flex xs:gap-4 md:gap-8 items-center lg:gap-10 xs:mt-10 md:mt-16 lg:mt-20">
           <Link href="/projects#projects">
             <Button
               variant="contained"
@@ -34,7 +34,10 @@ const HeroSection = () => {
             </Button>
           </Link>
           <ul className="flex items-center gap-6">
-            <Link href="/" className="flex gap-2 font-bold mr-4">
+            <Link
+              href="/projects#projects"
+              className="flex gap-2 font-bold mr-4"
+            >
               <PlayArrowRoundedIcon className="text-navy border-2 border-navy rounded-full xs:text-3xl md:text-4xl lg:text-5xl" />
             </Link>
 

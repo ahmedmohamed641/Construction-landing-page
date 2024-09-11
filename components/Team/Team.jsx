@@ -1,5 +1,4 @@
 import { Typography, Container } from "@mui/material";
-
 import Image from "next/image";
 
 const Team = () => {
@@ -24,15 +23,16 @@ const Team = () => {
             />
           </figure>
           <div className="flex flex-col gap-4 pt-6 bg-gray-200 p-4">
-            <h3 className="text-navy text-xl sm:text-2xl capitalize font-semibold transition-colors duration-300 hover:text-blue-600">
+            <h3 className="text-navy xs:text-md md:text-xl capitalize font-semibold transition-colors duration-300 hover:text-blue-600">
               John Brook
             </h3>
-            <Typography className="text-gray-600 text-sm sm:text-base">
-              Worker
+            <Typography className="text-gray-600 md:text-sm xs:text-xs">
+              Construction Engineer
             </Typography>
           </div>
         </section>
-        {/* Second card */}
+
+        {/* Second Card */}
         <section className="flex-col rounded-xl bg-white shadow-lg overflow-hidden transition-transform duration-300 transform hover:scale-105">
           <figure className="relative">
             <Image
@@ -44,15 +44,16 @@ const Team = () => {
             />
           </figure>
           <div className="flex flex-col gap-4 pt-6 bg-gray-200 p-4">
-            <h3 className="text-navy text-xl sm:text-2xl capitalize font-semibold transition-colors duration-300 hover:text-blue-600">
-              John Brook
+            <h3 className="text-navy xs:text-md md:text-xl capitalize font-semibold transition-colors duration-300 hover:text-blue-600">
+              Ethan James
             </h3>
-            <Typography className="text-gray-600 text-sm sm:text-base">
-              Worker
+            <Typography className="text-gray-600 md:text-sm xs:text-xs">
+              Construction Foreman
             </Typography>
           </div>
         </section>
-        {/* Third card */}
+
+        {/* Third Card */}
         <section className="flex-col rounded-xl bg-white shadow-lg overflow-hidden transition-transform duration-300 transform hover:scale-105">
           <figure className="relative">
             <Image
@@ -64,16 +65,16 @@ const Team = () => {
             />
           </figure>
           <div className="flex flex-col gap-4 pt-6 bg-gray-200 p-4">
-            <h3 className="text-navy text-xl sm:text-2xl capitalize font-semibold transition-colors duration-300 hover:text-blue-600">
-              John Brook
+            <h3 className="text-navy xs:text-md md:text-xl capitalize font-semibold transition-colors duration-300 hover:text-blue-600">
+              Lucas Scott
             </h3>
-            <Typography className="text-gray-600 text-sm sm:text-base">
-              Worker
+            <Typography className="text-gray-600 md:text-sm xs:text-xs">
+              Estimator
             </Typography>
           </div>
         </section>
 
-        {/* Fourth card */}
+        {/* Fourth Card */}
         <section className="flex-col rounded-xl bg-white shadow-lg overflow-hidden transition-transform duration-300 transform hover:scale-105">
           <figure className="relative">
             <Image
@@ -85,15 +86,16 @@ const Team = () => {
             />
           </figure>
           <div className="flex flex-col gap-4 pt-6 bg-gray-200 p-4">
-            <h3 className="text-navy text-xl sm:text-2xl capitalize font-semibold transition-colors duration-300 hover:text-blue-600">
-              John Brook
+            <h3 className="text-navy xs:text-md md:text-xl capitalize font-semibold transition-colors duration-300 hover:text-blue-600">
+              Ella Morgan
             </h3>
-            <Typography className="text-gray-600 text-sm sm:text-base">
-              Worker
+            <Typography className="text-gray-600 md:text-sm xs:text-xs">
+              Project Manager
             </Typography>
           </div>
         </section>
-        {/* fifth card */}
+
+        {/* Fifth Card */}
         <section className="flex-col rounded-xl bg-white shadow-lg overflow-hidden transition-transform duration-300 transform hover:scale-105">
           <figure className="relative">
             <Image
@@ -105,16 +107,16 @@ const Team = () => {
             />
           </figure>
           <div className="flex flex-col gap-4 pt-6 bg-gray-200 p-4">
-            <h3 className="text-navy text-xl sm:text-2xl capitalize font-semibold transition-colors duration-300 hover:text-blue-600">
-              John Brook
+            <h3 className="text-navy xs:text-md md:text-xl capitalize font-semibold transition-colors duration-300 hover:text-blue-600">
+              Noah Reed
             </h3>
-            <Typography className="text-gray-600 text-sm sm:text-base">
-              Worker
+            <Typography className="text-gray-600 md:text-sm xs:text-xs">
+              Construction Engineer
             </Typography>
           </div>
         </section>
 
-        {/* sixth card */}
+        {/* Sixth Card */}
         <section className="flex-col rounded-xl bg-white shadow-lg overflow-hidden transition-transform duration-300 transform hover:scale-105">
           <figure className="relative">
             <Image
@@ -126,15 +128,16 @@ const Team = () => {
             />
           </figure>
           <div className="flex flex-col gap-4 pt-6 bg-gray-200 p-4">
-            <h3 className="text-navy text-xl sm:text-2xl capitalize font-semibold transition-colors duration-300 hover:text-blue-600">
-              John Brook
+            <h3 className="text-navy xs:text-md md:text-xl capitalize font-semibold transition-colors duration-300 hover:text-blue-600">
+              Ava Collins
             </h3>
-            <Typography className="text-gray-600 text-sm sm:text-base">
-              Worker
+            <Typography className="text-gray-600 md:text-sm xs:text-xs">
+              Architect
             </Typography>
           </div>
         </section>
-        {/* seventh card */}
+
+        {/* Seventh Card */}
         <section className="flex-col rounded-xl bg-white shadow-lg overflow-hidden transition-transform duration-300 transform hover:scale-105">
           <figure className="relative">
             <Image
@@ -146,15 +149,16 @@ const Team = () => {
             />
           </figure>
           <div className="flex flex-col gap-4 pt-6 bg-gray-200 p-4">
-            <h3 className="text-navy text-xl sm:text-2xl capitalize font-semibold transition-colors duration-300 hover:text-blue-600">
-              John Brook
+            <h3 className="text-navy xs:text-md md:text-xl capitalize font-semibold transition-colors duration-300 hover:text-blue-600">
+              Mason Cooper
             </h3>
-            <Typography className="text-gray-600 text-sm sm:text-base">
-              Worker
+            <Typography className="text-gray-600 md:text-sm xs:text-xs">
+              Field Technician
             </Typography>
           </div>
         </section>
-        {/* eighth card */}
+
+        {/* Eighth Card */}
         <section className="flex-col rounded-xl bg-white shadow-lg overflow-hidden transition-transform duration-300 transform hover:scale-105">
           <figure className="relative">
             <Image
@@ -166,11 +170,11 @@ const Team = () => {
             />
           </figure>
           <div className="flex flex-col gap-4 pt-6 bg-gray-200 p-4">
-            <h3 className="text-navy text-xl sm:text-2xl capitalize font-semibold transition-colors duration-300 hover:text-blue-600">
-              John Brook
+            <h3 className="text-navy xs:text-md md:text-xl capitalize font-semibold transition-colors duration-300 hover:text-blue-600">
+              Sophia Bennett
             </h3>
-            <Typography className="text-gray-600 text-sm sm:text-base">
-              Worker
+            <Typography className="text-gray-600 md:text-sm xs:text-xs">
+              Architect
             </Typography>
           </div>
         </section>

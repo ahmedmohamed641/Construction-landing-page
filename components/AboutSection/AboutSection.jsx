@@ -1,11 +1,11 @@
-import { Button, Typography, Container, TextField } from "@mui/material";
+import { Button, Container } from "@mui/material";
 import ArrowDownwardIcon from "@mui/icons-material/ArrowDownward";
 import Image from "next/image";
 import Link from "next/link";
 
 const AboutSection = () => {
   return (
-    <section className="about-background from-gray-100 to-gray-300 xs:pt-16 xs:pr-8 xs:pl-8 md:pr-14 md:pl-14 lg:pr-24 sm:pb-24 md:pb-24 xs:pb-24 lg:pl-24 lg:pt-24 w-full">
+    <section className=" from-gray-100 to-gray-300 xs:pt-16 xs:pr-8 xs:pl-8 md:pr-14 md:pl-14 lg:pr-24 sm:pb-24 md:pb-24 xs:pb-24 lg:pl-24 lg:pt-24 w-full">
       <Container maxWidth="xl" className="flex items-center justify-between">
         <section className="flex-col justify-start text-left w-full lg:w-1/2">
           <h1 className="text-navy-text xs:text-3xl sm:text-4xl lg:text-5xl xl:text-7xl leading-normal xs:mb-4 md:mb-6 capitalize">
