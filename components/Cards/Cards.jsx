@@ -10,7 +10,7 @@ const Cards = () => {
         className="text-left sm:flex gap-12 lg:gap-24 lg:justify-between"
       >
         {/* First Card */}
-        <section className="grid grid-cols-1 rounded-xl">
+        <article className="grid grid-cols-1 rounded-xl">
           <figure className="flex justify-start">
             <Image
               src="/assets/images/Image (2).png"
@@ -37,10 +37,10 @@ const Cards = () => {
               </Button>
             </span>
           </div>
-        </section>
+        </article>
 
         {/* Second Card */}
-        <section className="grid grid-cols-1 rounded-xl">
+        <article className="grid grid-cols-1 rounded-xl">
           <figure className="flex justify-start">
             <Image
               src="/assets/images/Image (2).png"
@@ -68,10 +68,10 @@ const Cards = () => {
               </Button>
             </span>
           </div>
-        </section>
+        </article>
 
         {/* Third Card */}
-        <section className="grid grid-cols-1 rounded-xl">
+        <article className="grid grid-cols-1 rounded-xl">
           <figure className="flex justify-start">
             <Image
               src="/assets/images/Image (2).png"
@@ -99,7 +99,7 @@ const Cards = () => {
               </Button>
             </span>
           </div>
-        </section>
+        </article>
       </Container>
     </section>
   );

@@ -2,16 +2,16 @@ import { Container } from "@mui/material";
 
 const Contact = () => {
   return (
-    <section className="  ">
+    <section className="bg-gray-100">
       <Container
         maxWidth="xl"
-        className=" sm:pt-28 lg:pt-36 pb-16 sm:pb-20 lg:pb-24"
+        className="sm:pt-28 lg:pt-36 pb-16 sm:pb-20 lg:pb-24"
       >
-        <section className="xs:pt-4 rounded-lg  md:pt-6  lg:pt-14  xl:pt-20  xl:h-[400px] xs:h-[125px] md:bg-cover md:h-[200px] lg:h-[300px] bg-contact-background flex flex-col items-center text-center">
-          <h2 className=" text-navy-text  xs:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-semibold leading-snug">
+        <section className="xs:pt-4 rounded-lg md:pt-6 lg:pt-14 xl:pt-20 xl:h-[400px] xs:h-[125px] md:bg-cover md:h-[200px] lg:h-[300px] bg-contact-background flex flex-col items-center text-center">
+          <h2 className="text-navy-text xs:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-semibold leading-snug">
             Get a Free Quote Now!
           </h2>
-          <section className="flex justify-center xs:mt-3  md:mt-6 mb-2 lg:mt-10 w-full px-4 sm:px-10 lg:px-0">
+          <section className="flex justify-center xs:mt-3 md:mt-6 mb-2 lg:mt-10 w-full px-4 sm:px-10 lg:px-0">
             <span className="rounded-md flex w-full max-w-xs sm:max-w-xs md:max-w-sm lg:max-w-md">
               <input
                 type="email"

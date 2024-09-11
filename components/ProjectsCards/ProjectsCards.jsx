@@ -29,9 +29,6 @@ const ProjectsCards = () => {
             <h3 className="text-navy text-xl sm:text-2xl capitalize font-semibold transition-colors duration-300 hover:text-blue-600">
               John Brook
             </h3>
-            <Typography className="text-gray-600 text-sm sm:text-base">
-              Worker
-            </Typography>
           </div>
         </section>
         {/* Second Card */}
@@ -49,9 +46,6 @@ const ProjectsCards = () => {
             <h3 className="text-navy text-xl sm:text-2xl capitalize font-semibold transition-colors duration-300 hover:text-blue-600">
               John Brook
             </h3>
-            <Typography className="text-gray-600 text-sm sm:text-base">
-              Worker
-            </Typography>
           </div>
         </section>
         {/* Third Card */}
@@ -69,9 +63,6 @@ const ProjectsCards = () => {
             <h3 className="text-navy text-xl sm:text-2xl capitalize font-semibold transition-colors duration-300 hover:text-blue-600">
               John Brook
             </h3>
-            <Typography className="text-gray-600 text-sm sm:text-base">
-              Worker
-            </Typography>
           </div>
         </section>
 
@@ -90,9 +81,6 @@ const ProjectsCards = () => {
             <h3 className="text-navy text-xl sm:text-2xl capitalize font-semibold transition-colors duration-300 hover:text-blue-600">
               John Brook
             </h3>
-            <Typography className="text-gray-600 text-sm sm:text-base">
-              Worker
-            </Typography>
           </div>
         </section>
         {/* Fifth Card */}
@@ -110,9 +98,6 @@ const ProjectsCards = () => {
             <h3 className="text-navy text-xl sm:text-2xl capitalize font-semibold transition-colors duration-300 hover:text-blue-600">
               John Brook
             </h3>
-            <Typography className="text-gray-600 text-sm sm:text-base">
-              Worker
-            </Typography>
           </div>
         </section>
 
@@ -131,9 +116,6 @@ const ProjectsCards = () => {
             <h3 className="text-navy text-xl sm:text-2xl capitalize font-semibold transition-colors duration-300 hover:text-blue-600">
               John Brook
             </h3>
-            <Typography className="text-gray-600 text-sm sm:text-base">
-              Worker
-            </Typography>
           </div>
         </section>
         {/* Seventh Card */}
@@ -151,9 +133,6 @@ const ProjectsCards = () => {
             <h3 className="text-navy text-xl sm:text-2xl capitalize font-semibold transition-colors duration-300 hover:text-blue-600">
               John Brook
             </h3>
-            <Typography className="text-gray-600 text-sm sm:text-base">
-              Worker
-            </Typography>
           </div>
         </section>
         {/* Eighth Card */}
@@ -171,9 +150,6 @@ const ProjectsCards = () => {
             <h3 className="text-navy text-xl sm:text-2xl capitalize font-semibold transition-colors duration-300 hover:text-blue-600">
               John Brook
             </h3>
-            <Typography className="text-gray-600 text-sm sm:text-base">
-              Worker
-            </Typography>
           </div>
         </section>
       </Container>

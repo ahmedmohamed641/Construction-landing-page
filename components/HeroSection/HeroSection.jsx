@@ -15,10 +15,10 @@ const HeroSection = () => {
         </h1>
 
         <p className="text-light-navy lg:text-lg">
-          We designed 100+ commercial & residential projects
-          <br className="xs:hidden sm:block" /> in UAS & across the globe.
-          Providing Design & 3D <br className="xs:hidden sm:block" /> Support to
-          Architectural Firms Globally. Award-{" "}
+          We designed 100+ commercial &amp; residential projects
+          <br className="xs:hidden sm:block" /> in UAS &amp; across the globe.
+          Providing Design &amp; 3D <br className="xs:hidden sm:block" />{" "}
+          Support to Architectural Firms Globally. Award-{" "}
           <br className="xs:hidden sm:block" />
           Winning Company. <span className="text-navy-text">17+ Years </span> Of
           Experience.

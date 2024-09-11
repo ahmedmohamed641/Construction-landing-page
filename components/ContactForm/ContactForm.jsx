@@ -2,7 +2,7 @@ import { Button, Typography, Container, TextField } from "@mui/material";
 
 const ContactForm = () => {
   return (
-    <section className=" from-gray-100 to-gray-300 xs:pt-16 xs:pr-8 xs:pl-8 md:pr-14 md:pl-14 lg:pr-24 sm:pb-24 md:pb-24 xs:pb-24 lg:pl-24 lg:pt-24 w-full">
+    <section className="from-gray-100 to-gray-300 xs:pt-16 xs:pr-8 xs:pl-8 md:pr-14 md:pl-14 lg:pr-24 sm:pb-24 md:pb-24 xs:pb-24 lg:pl-24 lg:pt-24 w-full">
       <Container maxWidth="xl" className="flex items-center justify-between">
         <Container maxWidth="xl" className="mt-12 p-4 lg:p-8">
           <Typography

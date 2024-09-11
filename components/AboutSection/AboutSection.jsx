@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const AboutSection = () => {
   return (
-    <section className=" about-background  from-gray-100 to-gray-300 xs:pt-16 xs:pr-8 xs:pl-8 md:pr-14 md:pl-14 lg:pr-24 sm:pb-24 md:pb-24 xs:pb-24 lg:pl-24 lg:pt-24 w-full">
+    <section className="about-background from-gray-100 to-gray-300 xs:pt-16 xs:pr-8 xs:pl-8 md:pr-14 md:pl-14 lg:pr-24 sm:pb-24 md:pb-24 xs:pb-24 lg:pl-24 lg:pt-24 w-full">
       <Container maxWidth="xl" className="flex items-center justify-between">
         <section className="flex-col justify-start text-left w-full lg:w-1/2">
           <h1 className="text-navy-text xs:text-3xl sm:text-4xl lg:text-5xl xl:text-7xl leading-normal xs:mb-4 md:mb-6 capitalize">
@@ -14,11 +14,11 @@ const AboutSection = () => {
           <p className="text-light-navy lg:text-lg max-w-3xl mt-4">
             ISTAIX provides innovative, sustainable construction for
             residential, <br className="xs:hidden lg:block" /> commercial, and
-            industrial projects. Our expert team handles{" "}
+            industrial projects. Our expert team handles
             <br className="xs:hidden lg:block" /> everything from design to
-            completion, ensuring top quality{" "}
+            completion, ensuring top quality
             <br className="xs:hidden lg:block" /> and safety. We focus on
-            customer satisfaction and modern,{" "}
+            customer satisfaction and modern,
             <br className="xs:hidden lg:block" /> eco-friendly building methods.
           </p>
 
@@ -33,7 +33,7 @@ const AboutSection = () => {
           </Link>
         </section>
 
-        <figure className="flex justify-center xs:hidden md:block  mt-6 h-full">
+        <figure className="flex justify-center xs:hidden md:block mt-6 h-full">
           <Image
             src="/assets/images/about-section-2.jpg"
             className="w-full xs:h-[200px] md:h-[300px] lg:h-[400px] xl:h-[500px] rounded-xl transition-transform duration-300 ease-in-out hover:scale-105"
