@@ -24,7 +24,7 @@ const Review = () => {
           </figure>
         </section>
 
-        <section className="flex flex-col mt-24 pt-10 pb-10 gap-10 bg-sky rounded-lg">
+        <section className="flex flex-col mt-24 xs:pl-2 xs:pr-2 md:pl-0 md:pr-0  pt-10 pb-10 gap-10 bg-sky rounded-lg">
           <h2 className="text-navy-text xs:text-3xl md:text-4xl lg:text-5xl font-semibold leading-snug text-center">
             Few Words From Our Clients
           </h2>

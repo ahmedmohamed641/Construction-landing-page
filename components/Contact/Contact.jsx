@@ -1,6 +1,21 @@
+"use client";
+
+import { useState } from "react";
 import { Container } from "@mui/material";
 
 const Contact = () => {
+  const [email, setEmail] = useState("");
+
+  const handleJoinWaitlist = () => {
+    if (email) {
+      console.log("Joining the waitlist with email:", email);
+
+      setEmail("");
+    } else {
+      alert("Please enter a valid email address.");
+    }
+  };
+
   return (
     <section className="bg-gray-100">
       <Container
@@ -15,10 +30,15 @@ const Contact = () => {
             <span className="rounded-md flex w-full max-w-xs sm:max-w-xs md:max-w-sm lg:max-w-md">
               <input
                 type="email"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
                 className="bg-white xs:text-sm xs:placeholder:text-sm md:placeholder:text-base md:text-base capitalize pl-2 w-full placeholder:text-base focus:text-navy h-full rounded-l-md py-2 xs:py-3 lg:py-4"
                 placeholder="Your work email address"
               />
-              <button className="bg-navy xs:text-sm md:text-base xl:text-lg text-white xs:w-56 md:w-72 xs:py-2 md:py-4 lg:py-5 xl:py-7 lg:w-96 capitalize px-4 xs:px-6 lg:px-10 py-4 rounded-r-md">
+              <button
+                onClick={handleJoinWaitlist}
+                className="bg-navy xs:text-sm md:text-base xl:text-lg text-white xs:w-56 md:w-72 xs:py-2 md:py-4 lg:py-5 xl:py-7 lg:w-96 capitalize px-4 xs:px-6 lg:px-10 py-4 rounded-r-md"
+              >
                 Join the waitlist
               </button>
             </span>

@@ -7,7 +7,7 @@ import Rating from "@mui/material/Rating";
 
 const HeroSection = () => {
   return (
-    <section className="background-image lg:h-[650px] xl:h-[750px] xs:pt-16 xs:pr-8 xs:pl-8 md:pr-14 md:pl-14 lg:pr-24 sm:pb-24 md:pb-24 xs:pb-24 lg:pl-24 lg:pt-24 w-full">
+    <section className="background-image  lg:h-[650px] xl:h-[750px] xs:pt-16 xs:pr-8 xs:pl-8 md:pr-14 md:pl-14 lg:pr-24 sm:pb-24 md:pb-24 xs:pb-24 lg:pl-24 lg:pt-24 w-full">
       <Container maxWidth="xl" className="flex-col text-left items-center">
         <h1 className="text-navy-text xs:text-3xl sm:text-4xl lg:text-5xl xl:text-7xl leading-normal xs:mb-4 md:mb-6">
           Diversified Services. <br className="xs:hidden sm:block" /> Unvarying
@@ -15,13 +15,15 @@ const HeroSection = () => {
         </h1>
 
         <p className="text-light-navy lg:text-lg">
-          We designed 100+ commercial &amp; residential projects
-          <br className="xs:hidden sm:block" /> in UAS &amp; across the globe.
-          Providing Design &amp; 3D <br className="xs:hidden sm:block" />{" "}
-          Support to Architectural Firms Globally. Award-{" "}
+          We have designed 100+ commercial &amp; residential projects
+          <br className="xs:hidden sm:block" /> in the USA &amp;{" "}
+          <br className="xs:block sm:hidden" /> across the globe, providing
+          design <br className="xs:block sm:hidden" /> &amp; 3D{" "}
           <br className="xs:hidden sm:block" />
-          Winning Company. <span className="text-navy-text">17+ Years </span> Of
-          Experience.
+          support to architectural firms <br className="xs:block sm:hidden" />{" "}
+          worldwide. Award- <br className="xs:hidden sm:block" />
+          winning company <br className="xs:block sm:hidden" /> with{" "}
+          <span className="text-navy-text">17+ years</span> of experience.
         </p>
 
         <section className="flex xs:gap-4 md:gap-8 items-center lg:gap-10 xs:mt-10 md:mt-16 lg:mt-20">

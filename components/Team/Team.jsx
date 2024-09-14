@@ -171,7 +171,7 @@ const Team = () => {
           </figure>
           <div className="flex flex-col gap-4 pt-6 bg-gray-200 p-4">
             <h3 className="text-navy xs:text-md md:text-xl capitalize font-semibold transition-colors duration-300 hover:text-blue-600">
-              Sophia Bennett
+              Sophia Stone
             </h3>
             <Typography className="text-gray-600 md:text-sm xs:text-xs">
               Architect
